@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+.wrapper {
+    @apply max-w-[1170px] px-[15px] mx-auto py-5;
+}
+}
+*{
+    margin-left: 10px ;
+    margin-top:  10px;
+}
